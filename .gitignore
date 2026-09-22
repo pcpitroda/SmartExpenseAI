@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+build/
+
+# Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# SQLite database (optional: comment out if you want initial db in repository)
+# backend/database/smartexpense.db
